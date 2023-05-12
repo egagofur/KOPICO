@@ -22,7 +22,7 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="italic w-full font-extrabold text-1xl md:text-4xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+              <div className="w-full font-extrabold text-2xl md:text-4xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
                 KOPICO
               </div>
             </div>
