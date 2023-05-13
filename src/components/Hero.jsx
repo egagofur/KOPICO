@@ -32,7 +32,7 @@ export const Hero = () => {
             <span className="hidden md:inline">Komunitas <p>pingin coding</p></span>
           </div>
           <div className="mt-2 sm:mt-2 text-2xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold tracking-wide   px-8 sm:px-20 md:px-24 lg:px-24 bg-gradient-to-r from-violet-500 via-violet-600 to-purple-500 bg-clip-text text-transparent">
-            for Students
+            for Beginners
           </div>
         </motion.div>
         <motion.div
