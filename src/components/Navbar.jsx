@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import {InvitationModal} from "./InvitationModal.jsx";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
@@ -53,16 +54,8 @@ export const Navbar = () => {
             transition={{ duration: 0.3 }}
             exit={{ opacity: 0 }}
         >
-          <div className="grow basis-0 justify-end hidden lg:flex">
-            <a
-                className="text-white custom-border-gray rounded-xl
-                 bg-gradient-to-r from-cyan-500 to-blue-500  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                href="https://chat.whatsapp.com/DRLKnM7EGMaJjKuo86wdhQ"
-                target="_blank"
-                aria-label="source code"
-            >
-              <span className="pt-px font-bold">Join Now</span>
-            </a>
+          <div className="grow basis-0 justify-end hidden lg:flex mr-36">
+
           </div>
         </motion.div>
         <div
