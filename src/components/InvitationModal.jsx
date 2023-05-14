@@ -53,13 +53,19 @@ export const InvitationModal = ({ setIsOpen }) => (
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">
                 Join 200+ other students
               </h3>
-                <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
+                <div className="w-full sm:w-4/5 p-2 mt-4 space-y-3 mx-auto">
                   <button
                     className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
                     type="button"
+                    onClick={() => window.location.href="https://discord.gg/mcsh4KqtPV"}
+                  >
+                    Join With Discord
+                  </button>     <button
+                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-green-500 hover:bg-green-600 transition ease-in-out duration-200"
+                    type="button"
                     onClick={() => window.location.href="https://chat.whatsapp.com/DRLKnM7EGMaJjKuo86wdhQ"}
                   >
-                    Join Now
+                    Join With Whatsapp
                   </button>
                 </div>
             </div>
