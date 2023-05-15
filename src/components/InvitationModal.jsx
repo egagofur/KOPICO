@@ -63,7 +63,7 @@ export const InvitationModal = ({ setIsOpen }) => (
                   </button>     <button
                     className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-green-500 hover:bg-green-600 transition ease-in-out duration-200"
                     type="button"
-                    onClick={() => window.location.href="https://chat.whatsapp.com/DRLKnM7EGMaJjKuo86wdhQ"}
+                    onClick={() => window.location.href="https://chat.whatsapp.com/GLDK5K5Z3EYFDF3kngVT2H"}
                   >
                     Join With Whatsapp
                   </button>
