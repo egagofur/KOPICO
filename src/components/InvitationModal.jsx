@@ -51,7 +51,7 @@ export const InvitationModal = ({ setIsOpen }) => (
               </div>
 
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">
-                Join 400+ other students
+                Join 500+ other students
               </h3>
                 <div className="w-full sm:w-4/5 p-2 mt-4 space-y-3 mx-auto">
                   <button
